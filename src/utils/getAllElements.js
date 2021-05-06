@@ -1,3 +1,3 @@
-export default function getAllElements(selector, scope = 'document') {
-  scope.querySelectorAll(selector)
+export default function getAllElements(selector, scope = document) {
+  return scope.querySelectorAll(selector)
 }
